@@ -72,7 +72,7 @@
           "options": {
             "browserTarget": "ng-app:build",
             "customWebpackConfig": {
-              "path": "./custom-webpack.config.js",
+              "path": "./custom-webpack.config.js"
             }
           },
           "configurations": {
