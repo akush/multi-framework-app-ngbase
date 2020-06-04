@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --prod=true",
-    "build": "ng build --stats-json --prod",
+    "build": "ng build --stats-json --prod && mv dist/ng-app/assets/robots.txt dist/ng-app/robots.txt",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
